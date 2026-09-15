@@ -1,0 +1,40 @@
+{
+  "action": "completed",
+  "workflow_run": {
+    "id": 12345679,
+    "name": "CI / Build & Test",
+    "workflow_id": 987654,
+    "head_branch": "main",
+    "head_sha": "abc1234def5678abc1234def5678abc1234def56",
+    "path": ".github/workflows/ci.yml",
+    "run_number": 43,
+    "run_attempt": 1,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-09-15T15:00:00Z",
+    "updated_at": "2026-09-15T15:05:00Z",
+    "html_url": "https://github.com/my-org/my-repo/actions/runs/12345679",
+    "triggering_actor": {
+      "login": "johndoe",
+      "id": 99999
+    },
+    "actor": {
+      "login": "johndoe"
+    }
+  },
+  "repository": {
+    "id": 111222333,
+    "name": "my-repo",
+    "full_name": "my-org/my-repo",
+    "html_url": "https://github.com/my-org/my-repo",
+    "owner": {
+      "login": "my-org",
+      "id": 444555
+    }
+  },
+  "sender": {
+    "login": "johndoe",
+    "id": 99999
+  }
+}

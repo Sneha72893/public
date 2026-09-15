@@ -1,0 +1,25 @@
+node_modules/
+.forge/
+dist/
+static/admin-panel/dist/
+static/admin-panel/node_modules/
+
+# Environment / secrets — NEVER commit these
+.env
+.env.local
+.env.*.local
+forge-vars.json
+
+# Logs
+*.log
+forge-debug.log
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+scratch/
